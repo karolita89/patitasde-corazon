@@ -1,0 +1,211 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+#contenidos
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+
+/*ETIQUETAS*/
+body
+{
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1
+{
+font-family: 'Shadows Into Light', cursive;
+color: black;
+margin-left: 10px;
+font-size: 80px;
+text-align: center; 
+}
+
+h2
+{
+font-family: 'Indie Flower', cursive;
+color: black;
+margin-left: 10px;
+font-size: 40px;
+text-align: center; 
+}
+
+h3
+{
+font-family: 'Shadows Into Light', cursive;;
+color: white;
+font-size: 30px;
+text-align: center; 
+}
+
+
+header
+{
+	
+	width: 1000px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+nav
+{
+width: 1000px;
+height: 50px;
+background: purple;
+border-radius: 10px;
+
+}
+
+ul
+{
+margin: auto;
+padding-top: 4px;
+
+}
+
+li
+{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: white;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black inset; 
+
+}
+
+section 
+{
+	width: 1000px;
+	background: pink;
+	height: 800px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.img{
+	float:left;
+	-webkit-transition-duration: 0.5s;
+	}
+.img img{
+	padding:10px;
+	border:1px solid #fff;
+}
+.img:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}	
+.img .mask{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	height: 100%; 
+	opacity:0.6;
+	cursor:pointer;
+	-webkit-transition-duration: 0.5s;
+}
+#img-1:hover .mask{
+	height:0%;	
+}
+#img-2:hover .mask{
+	height:0%;	
+	margin-top:130px;
+}
+#img-3 #mask-1 {
+	width:50%;
+}
+#img-3 #mask-2{
+	width:50%;
+	margin-left:211px;
+}
+#img-3:hover #mask-1{
+	width:0%;
+}
+#img-3:hover #mask-2{
+	margin-left:430px;
+	width:0%;
+}
+#img-4:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+}
+
+#img-5:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateX(360deg);
+}
+#img-6:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateZ(750deg);
+}
+
+footer
+{
+width: 1000px;
+height: 70px;
+background: purple;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+p
+{
+
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: black; text-decoration: none;}
+.menu:visited{color: black; text-decoration: none;}
+.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px black;}
+.menu:active{color: black; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
